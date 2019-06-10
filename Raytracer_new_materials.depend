@@ -1,0 +1,167 @@
+# depslib dependency file v1.0
+1533401342 source:c:\users\konrad\desktop\engine\basicstructures.cpp
+	"BasicStructures.h"
+
+1533057781 c:\users\konrad\desktop\engine\basicstructures.h
+	"Ray.h"
+	"Vector.h"
+	"Material.h"
+	<vector>
+
+1533398229 c:\users\konrad\desktop\engine\ray.h
+	"Vector.h"
+	"Mesh.h"
+	"Light.h"
+	"Material.h"
+
+1532614378 c:\users\konrad\desktop\engine\vector.h
+	<iostream>
+	<cmath>
+
+1533057230 c:\users\konrad\desktop\engine\mesh.h
+	<iostream>
+	"Vector.h"
+	"Material.h"
+	<cstring>
+
+1533057686 c:\users\konrad\desktop\engine\material.h
+	<ostream>
+	"Vector.h"
+	"Shader.h"
+
+1533761170 c:\users\konrad\desktop\engine\shader.h
+	"Color.h"
+	<functional>
+
+1533656021 c:\users\konrad\desktop\engine\color.h
+	"Vector.h"
+
+1532637839 c:\users\konrad\desktop\engine\light.h
+	<iostream>
+	"Vector.h"
+	"Material.h"
+	<vector>
+
+1532088780 source:c:\users\konrad\desktop\engine\bmp.cpp
+	"bmp.h"
+	<iostream>
+	<cassert>
+	<fstream>
+	<cstring>
+	<cmath>
+	<ctime>
+
+1532088780 c:\users\konrad\desktop\engine\bmp.h
+	<stdint.h>
+	<iostream>
+
+1533656038 source:c:\users\konrad\desktop\engine\color.cpp
+	"Color.h"
+	"Utils.h"
+
+1533045226 source:c:\users\konrad\desktop\engine\draw.cpp
+	"draw.h"
+
+1533045109 c:\users\konrad\desktop\engine\draw.h
+	"bmp.h"
+	"Color.h"
+	<cmath>
+	<fstream>
+
+1533057649 source:c:\users\konrad\desktop\engine\import.cpp
+	"Import.h"
+	"Vector.h"
+	"Material.h"
+	<cmath>
+	<cstring>
+	<sstream>
+	<iostream>
+	<vector>
+
+1532088780 c:\users\konrad\desktop\engine\import.h
+	<iostream>
+	<fstream>
+	"Mesh.h"
+	<cstring>
+
+1533395340 source:c:\users\konrad\desktop\engine\light.cpp
+	<iostream>
+	"Light.h"
+	"Ray.h"
+
+1532893112 source:c:\users\konrad\desktop\engine\material.cpp
+	"Material.h"
+
+1536161439 source:c:\users\konrad\desktop\engine\project.cpp
+	"raytracer.h"
+	<iostream>
+	<string>
+	<sstream>
+	<ctime>
+	<cassert>
+
+1533749573 c:\users\konrad\desktop\engine\raytracer.h
+	"Material.h"
+	"Light.h"
+	"Mesh.h"
+	"Import.h"
+	"bmp.h"
+	"Render.h"
+	"Ray.h"
+	"Transform.h"
+	"BasicStructures.h"
+	"Shader.h"
+	"Color.h"
+	"Value.h"
+
+1533652446 c:\users\konrad\desktop\engine\render.h
+	"bmp.h"
+	"Vector.h"
+
+1532088780 c:\users\konrad\desktop\engine\transform.h
+	"Mesh.h"
+
+1533401831 source:c:\users\konrad\desktop\engine\ray.cpp
+	<iostream>
+	"Ray.h"
+	"Utils.h"
+	<cmath>
+	"BasicStructures.h"
+
+1533063826 c:\users\konrad\desktop\engine\utils.h
+	<iostream>
+	"Vector.h"
+	"Mesh.h"
+
+1533761501 source:c:\users\konrad\desktop\engine\shader.cpp
+	"Shader.h"
+	"Light.h"
+	<iostream>
+	"Utils.h"
+	"Ray.h"
+	"Value.h"
+	<cassert>
+
+1533062516 source:c:\users\konrad\desktop\engine\utils.cpp
+	"Utils.h"
+
+1532614404 source:c:\users\konrad\desktop\engine\vector.cpp
+	"Vector.h"
+	"Utils.h"
+
+1533057703 source:c:\users\konrad\desktop\engine\mesh.cpp
+	"Mesh.h"
+	"Vector.h"
+
+1533761705 source:c:\users\konrad\desktop\engine\render.cpp
+	"Render.h"
+	<iostream>
+	"Vector.h"
+	"Mesh.h"
+	"Light.h"
+	"Ray.h"
+	"draw.h"
+
+1533760569 c:\users\konrad\desktop\engine\value.h
+	"Vector.h"
+

@@ -1,0 +1,421 @@
+# depslib dependency file v1.0
+1527269870 source:/home/konrad/Pulpit/JIMP2/engine/bmp.cpp
+	"bmp.h"
+	<iostream>
+	<cassert>
+	<fstream>
+	<cstring>
+	<cmath>
+	<ctime>
+
+1527269330 /home/konrad/Pulpit/JIMP2/engine/bmp.h
+	<stdint.h>
+	<iostream>
+
+1532044831 source:/home/konrad/Pulpit/JIMP2/engine/engine.cpp
+	<iostream>
+	"Material.h"
+	"Light.h"
+	"Mesh.h"
+	"Import.h"
+	"bmp.h"
+	"Render.h"
+	"Ray.h"
+	"Transform.h"
+	<string>
+
+1532086018 /home/konrad/Pulpit/JIMP2/engine/Mesh.h
+	<iostream>
+	"Vector.h"
+	"Material.h"
+	<cstring>
+	"Ray.h"
+
+1532029419 /home/konrad/Pulpit/JIMP2/engine/Vector.h
+	<iostream>
+	<cmath>
+
+1530221303 /home/konrad/Pulpit/JIMP2/engine/Material.h
+	<ostream>
+	"Vector.h"
+
+1530210998 /home/konrad/Pulpit/JIMP2/engine/Ray.h
+	"Vector.h"
+	"Mesh.h"
+	"Light.h"
+
+1530273325 /home/konrad/Pulpit/JIMP2/engine/Light.h
+	<iostream>
+	"Vector.h"
+	"Material.h"
+
+1527268485 /home/konrad/Pulpit/JIMP2/engine/Utils.h
+	<iostream>
+	"Vector.h"
+
+1532044680 /home/konrad/Pulpit/JIMP2/engine/Render.h
+	"bmp.h"
+	"Vector.h"
+
+1527354709 /home/konrad/Pulpit/JIMP2/engine/Import.h
+	<iostream>
+	<fstream>
+	"Mesh.h"
+	<cstring>
+
+1532029497 source:/home/konrad/Pulpit/JIMP2/engine/Import.cpp
+	"Import.h"
+	"Vector.h"
+	"Material.h"
+	<cmath>
+	<cstring>
+	<sstream>
+	<iostream>
+	<vector>
+
+1530273316 source:/home/konrad/Pulpit/JIMP2/engine/Light.cpp
+	<iostream>
+	"Light.h"
+
+1530221289 source:/home/konrad/Pulpit/JIMP2/engine/Material.cpp
+	"Material.h"
+
+1532028213 source:/home/konrad/Pulpit/JIMP2/engine/Mesh.cpp
+	"Mesh.h"
+	"Vector.h"
+
+1530221677 source:/home/konrad/Pulpit/JIMP2/engine/Ray.cpp
+	<iostream>
+	"Ray.h"
+	"Utils.h"
+	<cmath>
+
+1532044687 source:/home/konrad/Pulpit/JIMP2/engine/Render.cpp
+	"Render.h"
+	<iostream>
+	"Vector.h"
+	"Mesh.h"
+	"Light.h"
+	"Ray.h"
+	"draw.h"
+
+1532027987 source:/home/konrad/Pulpit/JIMP2/engine/Utils.cpp
+	"Utils.h"
+
+1532029460 source:/home/konrad/Pulpit/JIMP2/engine/Vector.cpp
+	"Vector.h"
+
+1527272680 source:/home/konrad/Pulpit/JIMP2/engine/main.cpp
+	<iostream>
+	"Material.h"
+
+1527427476 source:/home/konrad/Pulpit/JIMP2/engine/draw.cpp
+	"draw.h"
+	<cmath>
+
+1527421998 /home/konrad/Pulpit/JIMP2/engine/draw.h
+	"bmp.h"
+	"Material.h"
+	<cmath>
+	<fstream>
+
+1530274236 /home/konrad/Pulpit/JIMP2/engine/Transform.h
+	"Mesh.h"
+
+1532088780 source:c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\bmp.cpp
+	"bmp.h"
+	<iostream>
+	<cassert>
+	<fstream>
+	<cstring>
+	<cmath>
+	<ctime>
+
+1532088780 c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\bmp.h
+	<stdint.h>
+	<iostream>
+
+1532088780 source:c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\draw.cpp
+	"draw.h"
+	<cmath>
+
+1532088780 c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\draw.h
+	"bmp.h"
+	"Material.h"
+	<cmath>
+	<fstream>
+
+1532088780 c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\material.h
+	<ostream>
+	"Vector.h"
+
+1532088780 c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\vector.h
+	<iostream>
+	<cmath>
+
+1532102835 source:c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\engine.cpp
+	<iostream>
+	"Material.h"
+	"Light.h"
+	"Mesh.h"
+	"Import.h"
+	"bmp.h"
+	"Render.h"
+	"Ray.h"
+	"Transform.h"
+	<string>
+	<sstream>
+
+1532088780 c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\light.h
+	<iostream>
+	"Vector.h"
+	"Material.h"
+
+1532106108 c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\mesh.h
+	<iostream>
+	"Vector.h"
+	"Material.h"
+	<cstring>
+
+1532088780 c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\ray.h
+	"Vector.h"
+	"Mesh.h"
+	"Light.h"
+
+1532088780 c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\import.h
+	<iostream>
+	<fstream>
+	"Mesh.h"
+	<cstring>
+
+1532088780 c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\render.h
+	"bmp.h"
+	"Vector.h"
+
+1532088780 c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\transform.h
+	"Mesh.h"
+
+1532088780 source:c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\import.cpp
+	"Import.h"
+	"Vector.h"
+	"Material.h"
+	<cmath>
+	<cstring>
+	<sstream>
+	<iostream>
+	<vector>
+
+1532088780 source:c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\light.cpp
+	<iostream>
+	"Light.h"
+
+1532088780 source:c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\material.cpp
+	"Material.h"
+
+1532101152 source:c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\mesh.cpp
+	"Mesh.h"
+	"Vector.h"
+
+1532088780 source:c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\ray.cpp
+	<iostream>
+	"Ray.h"
+	"Utils.h"
+	<cmath>
+
+1532088780 c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\utils.h
+	<iostream>
+	"Vector.h"
+
+1532088780 source:c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\render.cpp
+	"Render.h"
+	<iostream>
+	"Vector.h"
+	"Mesh.h"
+	"Light.h"
+	"Ray.h"
+	"draw.h"
+
+1532088780 source:c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\utils.cpp
+	"Utils.h"
+
+1532088780 source:c:\users\konrad\desktop\calylinux\pulpit\jimp2\engine\vector.cpp
+	"Vector.h"
+
+1532088780 source:c:\users\konrad\desktop\engine\bmp.cpp
+	"bmp.h"
+	<iostream>
+	<cassert>
+	<fstream>
+	<cstring>
+	<cmath>
+	<ctime>
+
+1532088780 c:\users\konrad\desktop\engine\bmp.h
+	<stdint.h>
+	<iostream>
+
+1533045226 source:c:\users\konrad\desktop\engine\draw.cpp
+	"draw.h"
+
+1533045109 c:\users\konrad\desktop\engine\draw.h
+	"bmp.h"
+	"Color.h"
+	<cmath>
+	<fstream>
+
+1533057686 c:\users\konrad\desktop\engine\material.h
+	<ostream>
+	"Vector.h"
+	"Shader.h"
+
+1532614378 c:\users\konrad\desktop\engine\vector.h
+	<iostream>
+	<cmath>
+
+1533057649 source:c:\users\konrad\desktop\engine\import.cpp
+	"Import.h"
+	"Vector.h"
+	"Material.h"
+	<cmath>
+	<cstring>
+	<sstream>
+	<iostream>
+	<vector>
+
+1532088780 c:\users\konrad\desktop\engine\import.h
+	<iostream>
+	<fstream>
+	"Mesh.h"
+	<cstring>
+
+1533057230 c:\users\konrad\desktop\engine\mesh.h
+	<iostream>
+	"Vector.h"
+	"Material.h"
+	<cstring>
+
+1533395340 source:c:\users\konrad\desktop\engine\light.cpp
+	<iostream>
+	"Light.h"
+	"Ray.h"
+
+1532637839 c:\users\konrad\desktop\engine\light.h
+	<iostream>
+	"Vector.h"
+	"Material.h"
+	<vector>
+
+1532893112 source:c:\users\konrad\desktop\engine\material.cpp
+	"Material.h"
+
+1533057703 source:c:\users\konrad\desktop\engine\mesh.cpp
+	"Mesh.h"
+	"Vector.h"
+
+1533401831 source:c:\users\konrad\desktop\engine\ray.cpp
+	<iostream>
+	"Ray.h"
+	"Utils.h"
+	<cmath>
+	"BasicStructures.h"
+
+1533398229 c:\users\konrad\desktop\engine\ray.h
+	"Vector.h"
+	"Mesh.h"
+	"Light.h"
+	"Material.h"
+
+1533063826 c:\users\konrad\desktop\engine\utils.h
+	<iostream>
+	"Vector.h"
+	"Mesh.h"
+
+1533761705 source:c:\users\konrad\desktop\engine\render.cpp
+	"Render.h"
+	<iostream>
+	"Vector.h"
+	"Mesh.h"
+	"Light.h"
+	"Ray.h"
+	"draw.h"
+
+1533652446 c:\users\konrad\desktop\engine\render.h
+	"bmp.h"
+	"Vector.h"
+
+1533062516 source:c:\users\konrad\desktop\engine\utils.cpp
+	"Utils.h"
+
+1532614404 source:c:\users\konrad\desktop\engine\vector.cpp
+	"Vector.h"
+	"Utils.h"
+
+1532599440 source:c:\users\konrad\desktop\engine\engine.cpp
+	"raytracer.h"
+	<iostream>
+	<string>
+	<sstream>
+	<ctime>
+
+1532088780 c:\users\konrad\desktop\engine\transform.h
+	"Mesh.h"
+
+1533401342 source:c:\users\konrad\desktop\engine\basicstructures.cpp
+	"BasicStructures.h"
+
+1533057781 c:\users\konrad\desktop\engine\basicstructures.h
+	"Ray.h"
+	"Vector.h"
+	"Material.h"
+	<vector>
+
+1533749573 c:\users\konrad\desktop\engine\raytracer.h
+	"Material.h"
+	"Light.h"
+	"Mesh.h"
+	"Import.h"
+	"bmp.h"
+	"Render.h"
+	"Ray.h"
+	"Transform.h"
+	"BasicStructures.h"
+	"Shader.h"
+	"Color.h"
+	"Value.h"
+
+1533761196 source:c:\users\konrad\desktop\engine\project.cpp
+	"raytracer.h"
+	<iostream>
+	<string>
+	<sstream>
+	<ctime>
+	<cassert>
+
+1533761501 source:c:\users\konrad\desktop\engine\shader.cpp
+	"Shader.h"
+	"Light.h"
+	<iostream>
+	"Utils.h"
+	"Ray.h"
+	"Value.h"
+	<cassert>
+
+1533761170 c:\users\konrad\desktop\engine\shader.h
+	"Color.h"
+	<functional>
+
+1533656021 c:\users\konrad\desktop\engine\color.h
+	"Vector.h"
+
+1533656038 source:c:\users\konrad\desktop\engine\color.cpp
+	"Color.h"
+	"Utils.h"
+
+1533760568 source:c:\users\konrad\desktop\engine\value.cpp
+	"Value.h"
+	"Utils.h"
+	<iostream>
+
+1533760569 c:\users\konrad\desktop\engine\value.h
+	"Vector.h"
+
